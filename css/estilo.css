@@ -87,7 +87,7 @@ nav a:hover::after {
 /* Sección de parallax */
 .parallax {
   position: relative;
-  height: 250px;
+  height: 230px;
   background-image: url("../img/image/3.jpg"); /* Ruta de la imagen */
   background-attachment: fixed;
   background-position: center;
@@ -133,7 +133,7 @@ main {
 
 .intro-text p {
   font-size: 1.3rem;
-  color: var(--light-text-color);
+  color: var(--accent-color);
   margin-bottom: 1.2rem;
   margin-top: -0.6rem;
   padding-left: 2rem;
@@ -266,15 +266,26 @@ h2 {
 
 details {
   list-style: none;
-  background-color: #f6f8fa; /* color de fondo cuando no está desplegado */
+  position: relative;
+  padding-left: 1rem;
+
 }
 details[open] {
   background: #ffffff; /* color de fondo cuando está desplegado */
 }
 
 details summary {
+  color: var(--highlight-color);
   list-style: none; /* ocultamos la flecha */
   cursor: pointer; /* cambia el cursor del puntero */
+}
+details summary::before {
+  position: absolute;
+  content: "➧";
+  font-size: 1.3rem;
+  top: -5px;
+  left: 0px;
+
 }
 
 .certifications {
@@ -308,9 +319,11 @@ details summary {
 .linkedin-button {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
   gap: 1rem;
 }
+
+
 
 .button {
   display: flex;
@@ -348,6 +361,9 @@ details summary {
 
 .button:hover img {
   animation: blink 0.5s ease 0.1s;
+}
+.btn{
+  background-color: var(--card-background);
 }
 
 /* Reutilización de keyframes */
