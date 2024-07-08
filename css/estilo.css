@@ -264,6 +264,19 @@ h2 {
   margin: 0.5rem 0.5rem 0 0;
 }
 
+details {
+  list-style: none;
+  background-color: #f6f8fa; /* color de fondo cuando no está desplegado */
+}
+details[open] {
+  background: #ffffff; /* color de fondo cuando está desplegado */
+}
+
+details summary {
+  list-style: none; /* ocultamos la flecha */
+  cursor: pointer; /* cambia el cursor del puntero */
+}
+
 .certifications {
   margin-top: 3rem;
 }

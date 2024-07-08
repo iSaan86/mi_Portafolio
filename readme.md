@@ -1,7 +1,8 @@
 # Mi Portafolio
 
-Examen práctico sobre replicar una página de una web, dada como imagen en un documento por el profesor, con unos parametros marcados y unos recursos multimedia dados, como logos e imagenes. Se trataba de replicar perfectamente con HTML y CSS, teniendo que estar todo perfecto y comentado.
-En el proceso de aprendizaje haciamos varios ejercicios prácticos para aprender a fondo CSS y luego pasabamos a hacer evaluaciones prácticas y cuestionarios con preguntas. Esta es una de esas evaluaciones, pero comparto mas en mi GitHub.
+Mi portfolio, en el que se puede navegar por mi perfil profesional como Desarrolladora Web Frontend.
+Inlcuye apartados como Sobre mí, Formación, Habilidades duras y blandas y mis proyectos preferidos.
+Desarrollado por mí 100% desde cero, con HTML, CSS y JavaScript.
 
 ## Captura de Pantalla
 
@@ -16,6 +17,7 @@ En el proceso de aprendizaje haciamos varios ejercicios prácticos para aprender
 
 - HTML5
 - CSS3
+- JavaScript
 
 ## Contacto
 
