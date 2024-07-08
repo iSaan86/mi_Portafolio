@@ -132,7 +132,7 @@ main {
 }
 
 .intro-text p {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: var(--accent-color);
   margin-bottom: 1.2rem;
   margin-top: -0.6rem;
@@ -156,7 +156,8 @@ main {
 
 /* Estilo de disponibilidad */
 .availability {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  margin-top: 2rem;
   font-family: "Quicksand", sans-serif;
   color: rgb(165, 199, 151);
   animation: blink 1s infinite;
@@ -186,7 +187,7 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: 2rem;
+  margin: 2.5rem 0;
   padding: 0 1rem;
 }
 
