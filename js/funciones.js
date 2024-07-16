@@ -2,46 +2,49 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     const navLinks = document.querySelectorAll('nav a');
-    const sections = document.querySelectorAll('section, main');
 
-    // Función para establecer el enlace activo basado en el desplazamiento
-    const setActiveLink = () => {
-        let index = sections.length;
+    function updateActiveLink() {
+        let fromTop = window.scrollY;
 
-        while (--index && window.scrollY + 50 < sections[index].offsetTop) {}
+        navLinks.forEach(link => {
+            let section = document.querySelector(link.hash);
 
-        navLinks.forEach((link) => link.classList.remove('active'));
-        if (index >= 0) {
-            navLinks[index].classList.add('active');
-        }
-    };
+            if (
+                section.offsetTop <= fromTop &&
+                section.offsetTop + section.offsetHeight > fromTop
+            ) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
+    }
 
-    // Función para manejar el clic en los enlaces de navegación
+    // Añade el comportamiento de scroll para actualizar el enlace activo
+    window.addEventListener('scroll', updateActiveLink);
+
+    // Añade el comportamiento de clic para el desplazamiento suave
     navLinks.forEach(link => {
-        link.addEventListener('click', (event) => {
-            event.preventDefault();
-            const targetId = link.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            const targetId = link.getAttribute('href');
+            const targetSection = document.querySelector(targetId);
 
             window.scrollTo({
-                top: targetElement.offsetTop,
+                top: targetSection.offsetTop - 50, // Ajuste de 50px para la altura del header
                 behavior: 'smooth'
             });
 
-            navLinks.forEach(navLink => navLink.classList.remove('active'));
-            link.classList.add('active');
-        });
-
-        link.addEventListener('mouseover', () => {
-            link.style.color = getComputedStyle(document.documentElement).getPropertyValue('--accent-color');
-        });
-
-        link.addEventListener('mouseout', () => {
-            if (!link.classList.contains('active')) {
-                link.style.color = 'white';
-            }
+            // Actualiza el enlace activo inmediatamente después de hacer clic
+            setTimeout(() => {
+                updateActiveLink();
+            }, 300); // Tiempo para permitir que el scroll suave termine
         });
     });
+
+    // Llama a updateActiveLink al cargar la página para establecer el enlace activo correcto
+    updateActiveLink();
 
     // Efecto de bienvenida en la home
     const introText = document.querySelector('.intro-text');
@@ -53,11 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 500);
     }
 
-    // Configurar enlace activo al hacer scroll
-    window.addEventListener('scroll', setActiveLink);
 
-    // Inicializar el enlace activo
-    setActiveLink();
 });
 
 

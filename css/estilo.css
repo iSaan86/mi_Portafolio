@@ -4,12 +4,12 @@
 /* Variables de color */
 :root {
   --primary-color: #333333; /* Negro */
-  --secondary-color: #666b70; /* Gris oscuro */
+  --secondary-color: #ffdbb3; /* Peach claro */
   --accent-color: #c8906a; /* Marrón */
   --background-color: #ffffff; /* Blanco */
   --text-color: #333333; /* Negro */
-  --light-text-color: #dabaaf; /* Beige claro */
-  --highlight-color: #e7a295; /* Rosa coral */
+  --light-text-color: #f8eeec; /* Beige mas claro */
+  --highlight-color: #ffbe98; /* Peach */
   --card-background: #f8f1ec; /* Beige claro */
   --border-color: #dadada; /* Gris claro */
   --hover-color: #a4ae9c; /* Verde grisáceo */
@@ -39,7 +39,7 @@ header {
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: var(--accent-color);
   margin-right: auto; /* Empuja el logo hacia la izquierda */
@@ -61,7 +61,7 @@ nav ul {
 }
 
 nav a {
-  color: white;
+  color: var(--light-text-color);
   text-decoration: none;
   font-weight: 400;
   position: relative;
@@ -133,7 +133,7 @@ main {
 
 .intro-text p {
   font-size: 1.4rem;
-  color: var(--accent-color);
+  color: var(--secondary-color);
   margin-bottom: 1.2rem;
   margin-top: -0.6rem;
   padding-left: 2rem;
@@ -150,11 +150,11 @@ main {
 /* Sección de descripción */
 #descripcion {
   font-size: 1rem;
-  padding: 1rem 2rem;
-  color: var(--secondary-color);
+  padding: 0rem 2rem;
+  color: var(--primary-color);
 }
 
-/* Estilo de disponibilidad */
+/* Estilo de disponibilidad para trabajar */
 .availability {
   font-size: 1.4rem;
   margin-top: 2rem;
