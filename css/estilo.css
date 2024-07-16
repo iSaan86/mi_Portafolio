@@ -7,7 +7,7 @@
   --secondary-color: #ffdbb3; /* Peach claro */
   --accent-color: #c8906a; /* Marrón */
   --background-color: #ffffff; /* Blanco */
-  --text-color: #333333; /* Negro */
+  --text-color: #3b3b3b; /* Negro */
   --light-text-color: #f8eeec; /* Beige mas claro */
   --highlight-color: #ffbe98; /* Peach */
   --card-background: #f8f1ec; /* Beige claro */
@@ -21,7 +21,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--background-color);
-  color: var(--text-color);
+  color: var(--primary-color);
 }
 
 /* Estilo del encabezado */
@@ -151,7 +151,7 @@ main {
 #descripcion {
   font-size: 1rem;
   padding: 0rem 2rem;
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 
 /* Estilo de disponibilidad para trabajar */
