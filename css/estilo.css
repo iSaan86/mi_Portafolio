@@ -39,7 +39,8 @@ header {
 }
 
 .logo {
-  font-size: 1.6rem;
+  font-size: 0.7rem;
+  letter-spacing: 3px;
   font-weight: bold;
   color: var(--accent-color);
   margin-right: auto; /* Empuja el logo hacia la izquierda */
@@ -127,7 +128,7 @@ main {
 }
 
 .intro-text h1 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -142,8 +143,8 @@ main {
 
 .intro-image img {
   border-radius: 50%;
-  width: 250px;
-  height: 250px;
+  width: 380px;
+  height: 380px;
   object-fit: cover;
 }
 
@@ -279,7 +280,13 @@ details summary {
   color: var(--highlight-color);
   list-style: none; /* ocultamos la flecha */
   cursor: pointer; /* cambia el cursor del puntero */
+  text-decoration: underline; /* subrayado por defecto */
 }
+
+details[open] summary {
+  text-decoration: none; /* sin subrayado cuando está abierto */
+}
+
 details summary::before {
   position: absolute;
   content: "➧";
@@ -302,6 +309,17 @@ details[open] summary::before {
   100% {
       -webkit-transform: rotate(90deg);
       transform: rotate(90deg);
+  }
+}
+@keyframes rotate-emoji {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
   }
 }
 
