@@ -626,6 +626,8 @@ main {
   min-height: 100vh;
   padding-top: 100px; /* Evita que el contenido quede bajo el header fijo */
   margin-top: 250px;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 
