@@ -603,7 +603,8 @@ footer {
   }
 
   nav ul {
-    gap: 0.2rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     font-size: 0.7rem;
   }
 
@@ -624,7 +625,7 @@ footer {
 main {
   min-height: 100vh;
   padding-top: 100px; /* Evita que el contenido quede bajo el header fijo */
-  margin-top: 100px;
+  margin-top: 250px;
 }
 
 
@@ -635,8 +636,8 @@ main {
   }
 
   .intro-image img {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
   }
 
   .project {
