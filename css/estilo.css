@@ -45,6 +45,15 @@ header {
   color: var(--accent-color);
   margin-right: auto; /* Empuja el logo hacia la izquierda */
 }
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:hover {
+  font-weight: bold;
+}
 
 nav {
   display: flex;
@@ -165,7 +174,8 @@ main {
 }
 
 @keyframes blink {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 1;
   }
   50% {
@@ -214,12 +224,11 @@ h2 {
 #about {
   background-color: var(--card-background);
   min-height: 100vh;
-  padding: 2rem 2rem;
+  padding: 2rem;
   padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
   place-items: center;
-  
 }
 
 .about-container {
@@ -231,7 +240,7 @@ h2 {
 #formacion {
   background-color: var(--background-color);
   min-height: 100vh;
-  padding: 2rem 2rem;
+  padding: 2rem;
   padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
@@ -241,12 +250,13 @@ h2 {
 /* Sección de habilidades */
 #skills {
   background-color: var(--card-background);
-  padding: 2rem 2rem;
-  padding-bottom: 5rem;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   place-items: center;
-  /* border: 15px double var(--background-color); */
+  border-top: 15px double var(--background-color);
   /* max-width: 60%; 
   margin: 0 auto; Para centrar el contenedor y ancho al 60%*/
 }
@@ -270,7 +280,6 @@ details {
   list-style: none;
   position: relative;
   padding-left: 1rem;
-
 }
 details[open] {
   background: #ffffff; /* color de fondo cuando está desplegado */
@@ -293,7 +302,6 @@ details summary::before {
   font-size: 1.3rem;
   top: -5px;
   left: 0px;
-
 }
 details[open] summary::before {
   -webkit-animation: rotate-emoji 0.6s ease-in-out both;
@@ -302,13 +310,13 @@ details[open] summary::before {
 
 @-webkit-keyframes rotate-emoji {
   0% {
-      -webkit-transform: rotate(0);
-      transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
   }
 
   100% {
-      -webkit-transform: rotate(90deg);
-      transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
   }
 }
 @keyframes rotate-emoji {
@@ -358,8 +366,6 @@ details[open] summary::before {
   gap: 1rem;
 }
 
-
-
 .button {
   display: flex;
   align-items: center;
@@ -370,7 +376,8 @@ details[open] summary::before {
   font-weight: 600;
   text-decoration: none;
   border-radius: 5px;
-  transition: background-color 0.3s ease, font-weight 0.3s ease, transform 0.3s ease;
+  transition: background-color 0.3s ease, font-weight 0.3s ease,
+    transform 0.3s ease;
   position: relative;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -397,14 +404,19 @@ details[open] summary::before {
 .button:hover img {
   animation: blink 0.5s ease 0.1s;
 }
-.btn{
+.btn {
   background-color: var(--card-background);
 }
 
 /* Reutilización de keyframes */
 @keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
 /* Contenedor de habilidades */
@@ -460,7 +472,7 @@ details[open] summary::before {
   background-color: var(--background-color);
   min-height: 100vh;
   padding: 2rem;
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -474,14 +486,15 @@ details[open] summary::before {
   max-width: 900px; /* Ancho máximo para dispositivos grandes */
   text-align: left;
   margin: 0 auto; /* Centra el contenido en pantallas grandes */
-  padding: 0 1rem; /* Espacio a los lados para dispositivos móviles */
+  padding: 1 1rem; /* Espacio a los lados para dispositivos móviles */
 }
 
 .projects-gallery {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 5rem;
+  padding-top: 2rem;
 }
 
 .project {
