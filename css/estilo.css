@@ -629,9 +629,13 @@ main {
   margin-bottom: 2rem;
   padding-bottom: 2rem;
 }
-
+nav {
+  display: flex;
+  justify-content: center;
+}
 
 }
+
 @media (max-width: 768px) {
   .intro {
     flex-direction: column-reverse;
