@@ -6,9 +6,9 @@ Desarrollado por mí 100% desde cero, con HTML, CSS y JavaScript.
 
 ## Captura de Pantalla
 
-![Mi Web](img/image/captura1.jpg)
-![Mi Web](img/image/captura2.jpg)
-![Mi Web](img/image/captura3.jpg)
+![Mi Web](img/image/portfolio1.jpg)
+![Mi Web](img/image/porfolio2.jpg)
+![Mi Web](img/image/portfolio3.jpg)
 
 ## Ver ejemplo en vivo
 [https://isaan86.github.io/mi_Portafolio/](https://isaan86.github.io/mi_Portafolio/)
