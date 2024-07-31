@@ -30,15 +30,17 @@ body {
 /* Estilo del encabezado */
 header {
   display: flex;
-  align-content: center;
-  padding: 1rem 2rem;
-  margin: auto;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-block: 1rem;
+  width: 100%;
   background-color: var(--primary-color);
   color: white;
   position: fixed;
-  width: 100%;
   top: 0;
   z-index: 1000;
+  
 }
 a {
   color: var(--text-color);
@@ -691,10 +693,6 @@ footer {
 /* Estilos responsivos */
 @media (max-width: 600px) {
   
-  header {
-    max-width: 100%;
-  }
-
   nav ul {
     flex-wrap: wrap;
     gap: 0.9rem;
