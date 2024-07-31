@@ -697,6 +697,24 @@ footer {
     gap: 0.8rem;
     font-size: 1rem;
   }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* background-image:  */
+  }
 
   .intro-text h1 {
     font-size: 1.5rem;
