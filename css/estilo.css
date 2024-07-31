@@ -15,18 +15,21 @@
   --hover-color: #a4ae9c; /* Verde grisáceo */
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* Estilo base del cuerpo */
 body {
   font-family: "Montserrat", sans-serif;
-  margin: 0;
-  padding: 0;
   background-color: var(--background-color);
   color: var(--primary-color);
 }
 
 /* Estilo del encabezado */
 header {
-  box-sizing: border-box;
   display: flex;
   align-items: center;
   padding: 1rem 2rem;
@@ -112,8 +115,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 100px); /* Resta el alto del header */
   text-align: center;
+  height: calc(100vh - 100px); /* Resta el alto del header */
   padding-top: 100px; /* Evita que el contenido quede bajo el header fijo */
 }
 
@@ -122,6 +125,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  /* background-image:  */
 }
 
 .intro-text {
@@ -142,8 +146,13 @@ main {
   padding-right: 2rem;
 }
 
-.intro-image img {
+/* .intro-image img {
   border-radius: 50%;
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+} */
+.intro-image img {
   width: 380px;
   height: 380px;
   object-fit: cover;
@@ -687,10 +696,6 @@ footer {
     flex-wrap: wrap;
     gap: 0.8rem;
     font-size: 1rem;
-  }
-
-  .logo {
-    font-size: 0.5rem;
   }
 
   .intro-text h1 {
