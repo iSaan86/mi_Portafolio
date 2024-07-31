@@ -57,15 +57,12 @@ nav {
   justify-content: center;
   align-content: center;
   flex-grow: 1; /* Ocupa todo el espacio restante */
-  margin: auto;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   gap: 2rem;
-  margin: 0;
-  padding: 0;
   justify-content: center; /* Centra la lista dentro del nav */
 }
 
@@ -692,11 +689,13 @@ footer {
 
 /* Estilos responsivos */
 @media (max-width: 600px) {
+
   
   nav ul {
     flex-wrap: wrap;
     gap: 0.9rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    max-width: 100%;
   }
 
   .intro-text h1 {
