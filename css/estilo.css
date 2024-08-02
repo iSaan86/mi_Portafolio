@@ -274,6 +274,8 @@ h2 {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap; /* Permite que los elementos de habilidades se envuelvan */
+  justify-content: center;
+  
 }
 
 .skills span {
@@ -372,6 +374,7 @@ details[open] summary::before {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
+  margin-bottom: 2rem;
   gap: 1rem;
 }
 
@@ -545,9 +548,15 @@ details[open] summary::before {
 }
 
 .project-description {
-  padding: 1rem;
+  padding-top: 1rem;
   width: 95%;
 }
+
+.project-description p {
+  padding: 1rem 0rem;
+  
+}
+
 
 .slider-controls {
   position: absolute;
@@ -576,13 +585,14 @@ footer {
   min-height: 15vh;
   place-content: center;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 .footer-links {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: 2rem;
+  margin: 2rem 0rem;
   padding: 0 1rem;
 }
 
@@ -713,7 +723,7 @@ footer {
   }
 
   .intro-text p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   #descripcion {
@@ -724,6 +734,11 @@ footer {
   .social-links {
     flex-wrap: wrap;
   }
+
+  .footer-links {
+    flex-wrap: wrap;
+  }
+
 }
 
 @media (max-width: 768px) {
