@@ -548,7 +548,7 @@ details[open] summary::before {
 }
 
 .project-description {
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   width: 95%;
 }
 
@@ -712,18 +712,16 @@ footer {
     gap: 0.8rem;
     font-size: 0.8rem;
     max-width: 100%;
-    margin-left: -20px;
-    padding-right: 1rem;
     
   }
 
   .intro-text h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
   }
 
   .intro-text p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   #descripcion {
@@ -761,6 +759,9 @@ footer {
     flex-direction: column;
     align-items: center;
     gap: 0;
+  }
+  .project-description {
+    padding-top: 2rem;
   }
 
   .project-image {
