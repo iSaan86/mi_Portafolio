@@ -1,13 +1,14 @@
 # Mi Portafolio
 
-Mi portfolio, en el que se puede navegar por mi perfil profesional como Desarrolladora Web Frontend.
-Inlcuye apartados como Sobre mí, Formación, Habilidades duras y blandas y mis proyectos preferidos.
+Mi portfolio personal, una one-page creada desde cero en la que se puede navegar por mi perfil profesional como Desarrolladora Web Frontend.
+Inlcuye apartados como Sobre mí, Formación, Habilidades duras y mis proyectos preferidos.
 Desarrollado por mí 100% desde cero, con HTML, CSS y JavaScript.
+#portfolio #frontenddeveloper #webdevelopment #html #css #javascript
 
 ## Captura de Pantalla
 
 ![Mi Web](img/image/portfolio1.jpg)
-![Mi Web](img/image/porfolio2.jpg)
+![Mi Web](img/image/portfolio2.jpg)
 ![Mi Web](img/image/portfolio3.jpg)
 
 ## Ver ejemplo en vivo
@@ -18,6 +19,7 @@ Desarrollado por mí 100% desde cero, con HTML, CSS y JavaScript.
 - HTML5
 - CSS3
 - JavaScript
+- Git
 
 ## Contacto
 
