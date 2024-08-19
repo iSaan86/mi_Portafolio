@@ -13,6 +13,7 @@ Desarrollado por mí 100% desde cero, con HTML, CSS y JavaScript.
 
 ## Ver ejemplo en vivo
 [https://isaan86.github.io/mi_Portafolio/](https://isaan86.github.io/mi_Portafolio/)
+[https://alexandra-ferrera-portfolio.netlify.app/](https://alexandra-ferrera-portfolio.netlify.app/)
 
 ## Tecnologías Utilizadas
 
@@ -20,6 +21,7 @@ Desarrollado por mí 100% desde cero, con HTML, CSS y JavaScript.
 - CSS3
 - JavaScript
 - Git
+- Photoshop
 
 ## Contacto
 
