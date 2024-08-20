@@ -1,8 +1,11 @@
 # Mi Portafolio
 
-Mi portfolio personal, una one-page creada desde cero en la que se puede navegar por mi perfil profesional como Desarrolladora Web Frontend.
-Inlcuye apartados como Sobre mí, Formación, Habilidades duras y mis proyectos preferidos.
-Desarrollado por mí 100% desde cero, con HTML, CSS y JavaScript.
+Mi portafolio personal es una página web de una sola hoja (one-page) que he diseñado y desarrollado completamente desde cero. En ella, presento mi perfil profesional como Desarrolladora Web Frontend.
+
+La página incluye secciones dedicadas a mi formación académica, habilidades técnicas (hard skills), proyectos destacados y una breve introducción personal.
+
+Toda la página ha sido construida utilizando HTML, CSS y JavaScript.
+
 #portfolio #frontenddeveloper #webdevelopment #html #css #javascript
 
 ## Captura de Pantalla
