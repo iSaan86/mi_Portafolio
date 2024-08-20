@@ -150,6 +150,7 @@ main {
 .intro-text h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  text-wrap: balance;
 }
 
 .intro-text p {
@@ -159,6 +160,7 @@ main {
   margin-top: -0.6rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  text-wrap: balance;
 }
 
 /* .intro-image img {
@@ -178,6 +180,7 @@ main {
   font-size: 1.1rem;
   padding: 0rem 2rem;
   color: var(--text-color);
+  text-wrap: pretty;
 }
 
 /* Estilo de disponibilidad para trabajar */
@@ -208,7 +211,14 @@ h2 {
 /* Estilo de texto sobre mí */
 .text-sep {
   line-height: 1.8rem;
+  text-wrap: pretty;
 }
+.text-peq {
+  line-height: 1.6rem;
+  font-size: 0.95rem;
+  text-wrap: pretty;
+}
+
 
 /* Enlaces a redes sociales */
 .social-links {
@@ -518,7 +528,7 @@ details[open] summary::before {
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 .project {
@@ -530,6 +540,8 @@ details[open] summary::before {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   gap: 1rem;
+  padding-top: 2rem;
+  /* align-items: center; para centrar la imagen a la card */
 }
 
 .project-image {
@@ -560,6 +572,7 @@ details[open] summary::before {
 
 .project-description p {
   padding: 1rem 0rem;
+  text-wrap: pretty;
 }
 
 .slider-controls {
@@ -723,17 +736,22 @@ footer {
   }
 
   .intro-text h1 {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     margin-bottom: 1rem;
   }
 
   .intro-text p {
-    font-size: 1rem;
+    font-size: 1.05rem;
   }
 
   #descripcion {
     line-height: 1.8rem;
     margin-top: -3rem;
+  }
+  .projects-gallery {
+  
+    gap: 3rem;
+    padding-top: 3rem;
   }
 
   .social-links {
