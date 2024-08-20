@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
             let section = document.querySelector(link.hash);
 
             if (
-                section.offsetTop <= fromTop &&
-                section.offsetTop + section.offsetHeight > fromTop
+                section.offsetTop <= fromTop + 50 && // Ajuste para cuando se hace clic y se desplaza
+                section.offsetTop + section.offsetHeight > fromTop + 50
             ) {
                 link.classList.add('active');
             } else {
@@ -36,8 +36,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 behavior: 'smooth'
             });
 
-            // Actualiza el enlace activo inmediatamente después de hacer clic
-            setTimeout(updateActiveLink, 300); // Tiempo para permitir que el scroll suave termine
+            // Quita la clase activa de todos los enlaces
+            navLinks.forEach(link => link.classList.remove('active'));
+
+            // Añade la clase activa al enlace clicado
+            link.classList.add('active');
         });
     });
 
@@ -63,9 +66,8 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             header.classList.remove('header-shadow');
         }
-    })
+    });
 });
-
 
 // Funciones para los Slider de Proyectos:
 document.addEventListener('DOMContentLoaded', function () {

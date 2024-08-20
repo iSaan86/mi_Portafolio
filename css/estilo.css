@@ -220,7 +220,6 @@ h2 {
   text-wrap: pretty;
 }
 
-
 /* Enlaces a redes sociales */
 .social-links {
   display: flex;
@@ -283,7 +282,7 @@ h2 {
 #skills {
   background-color: var(--card-background);
   padding: 2rem;
-  padding-bottom: 4rem;
+  padding-bottom: 7rem;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -757,9 +756,8 @@ footer {
   #about {
     padding-bottom: 4rem;
   }
-  
+
   .projects-gallery {
-  
     gap: 3rem;
     padding-top: 3rem;
   }
@@ -788,12 +786,12 @@ footer {
     height: 300px;
   }
 
-  
   .project {
     flex-direction: column;
     align-items: center;
     gap: 0;
   }
+
   .project-description {
     padding-top: 2rem;
   }
@@ -802,6 +800,7 @@ footer {
     width: 100%;
     height: auto;
   }
+  
   .skill {
     width: 5em;
     height: 5rem;
