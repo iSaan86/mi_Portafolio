@@ -6,7 +6,8 @@
 /* Variables de color */
 :root {
   --primary-color: #333333; /* Negro */
-  --secondary-color: #ffd5a4; /* Peach claro */
+  /* --secondary-color: #ffd5a4; Peach claro */
+  --secondary-color: #f0ac75; /* Peach claro */
   --accent-color: #c8906a; /* Marrón */
   --background-color: #ffffff; /* Blanco */
   --text-color: #3b3b3b; /* Negro */
@@ -148,18 +149,18 @@ main {
 }
 
 .intro-text h1 {
-  font-size: 2.25rem;
+  font-size: 2.7rem;
   margin-bottom: 1rem;
   text-wrap: balance;
 }
 
 .intro-text p {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   color: var(--secondary-color);
-  margin-bottom: 1.2rem;
   margin-top: -0.6rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  padding-bottom: 1rem;
   text-wrap: balance;
 }
 
@@ -740,12 +741,13 @@ footer {
   }
 
   .intro-text h1 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     margin-bottom: 1rem;
   }
 
   .intro-text p {
     font-size: 1.4rem;
+    padding-bottom: 3rem;
   }
 
   #descripcion {
@@ -768,11 +770,6 @@ footer {
 
   .footer-links {
     flex-wrap: wrap;
-  }
-}
-@media (max-width: 800px) {
-  #about {
-    padding-bottom: 3rem;
   }
 }
 
