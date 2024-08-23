@@ -109,7 +109,7 @@ nav a:hover::after {
 .parallax {
   position: relative;
   height: 230px;
-  background-image: url("../img/image/3.jpg"); /* Ruta de la imagen */
+  background-image: url("../img/image/3.webp"); /* Ruta de la imagen */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
