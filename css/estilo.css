@@ -1,8 +1,21 @@
 @font-face {
   font-family: "Quicksand";
   src: url("/fonts/Quicksand-VariableFont_wght.ttf");
+  font-weight: 400;
+  font-style: normal;
 }
-
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+/* @font-face {
+  font-family: "Unbounded";
+  src: url("/fonts/Unbounded-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+} */
 /* Variables de color */
 :root {
   --primary-color: #333333; /* Negro */
