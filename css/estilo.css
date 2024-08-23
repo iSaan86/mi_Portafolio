@@ -275,7 +275,8 @@ main {
   background-color: var(--card-background);
   min-height: 100vh;
   height: auto;
-  padding: 2 0 2 2rem;
+  padding: 2rem;
+  padding-bottom: 0rem;
   display: flex;
   flex-direction: column;
   place-items: center;
