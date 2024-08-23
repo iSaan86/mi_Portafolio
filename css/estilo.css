@@ -18,7 +18,7 @@
   --hover-color: #a4ae9c; /* Verde grisáceo */
 }
 
-* {
+*, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
@@ -154,7 +154,9 @@ main {
   text-wrap: balance;
 }
 
-.intro-text p {
+
+
+.intro-text h2 {
   font-size: 2.2rem;
   color: var(--secondary-color);
   margin-top: -0.6rem;
@@ -162,6 +164,7 @@ main {
   padding-right: 2rem;
   padding-bottom: 1rem;
   text-wrap: balance;
+  font-weight: normal;
 }
 
 /* .intro-image img {
@@ -183,6 +186,7 @@ main {
   line-height: 1.8rem;
   color: var(--text-color);
   text-wrap: pretty;
+  font-weight: normal;
 }
 
 /* Estilo de disponibilidad para trabajar */
@@ -205,10 +209,20 @@ main {
 }
 
 /* Estilo de textos */
-h2 {
+.titulos {
+  
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
   margin: 3rem 0;
   letter-spacing: 0.15rem;
 }
+
 
 /* Estilo de texto sobre mí */
 .text-sep {
@@ -310,7 +324,9 @@ h2 {
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   margin: 0.5rem 0.5rem 0 0;
+  text-align: center;
 }
+
 
 details {
   list-style: none;
@@ -499,13 +515,15 @@ details[open] summary::before {
   padding: 5px;
   border-radius: 5px;
   background: var(--primary-color);
+  
 }
-/* .med span {
-  background: gray;
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  
 }
-.baj span {
-  background: var(--border-color);
-} */
 
 .skill:hover img {
   opacity: 0;
@@ -745,7 +763,7 @@ footer {
     font-size: 2.4rem;
   }
 
-  .intro-text p {
+  .intro-text h2 {
     font-size: 1.8rem;
   }
 }
@@ -796,10 +814,10 @@ footer {
   }
 
   .intro-text h1 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 
-  .intro-text p {
+  .intro-text h2 {
     font-size: 1.2rem;
     padding-bottom: 3rem;
   }
