@@ -334,6 +334,7 @@ main {
 .skills span {
   display: inline-block;
   background-color: var(--hover-color);
+  font-family: "Quicksand", sans-serif;
   color: white;
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
@@ -462,6 +463,7 @@ details[open] summary::before {
 
 .button span {
   font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px;
 }
 
 .button:hover {
@@ -536,6 +538,7 @@ h2 {
   font-weight: bold;
   color: white;
   text-align: center;
+  font-family: "Quicksand", sans-serif;
   
 }
 
@@ -596,7 +599,7 @@ h2 {
   height: 100%;
   overflow: hidden;
   border-radius: 8px;
-  background-color: var(--hover-color);
+  background-color: var(--card-background);
 }
 
 .project-image .slide img {
@@ -711,8 +714,8 @@ footer {
   max-width: 90%;
   max-height: 90%;
   overflow: hidden;
-  background-color: white;
-  padding: 1rem;
+  background-color: var(--card-background);
+  padding: 0.5rem;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -723,6 +726,7 @@ footer {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  border-radius: 10px;
 }
 
 .close {
