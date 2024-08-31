@@ -10,12 +10,20 @@
   font-weight: 400;
   font-style: normal;
 }
-/* @font-face {
-  font-family: "Unbounded";
-  src: url("/fonts/Unbounded-Regular.ttf");
+@font-face {
+  font-family: "Architects";
+  src: url("/fonts/ArchitectsDaughter-Regular.ttf");
   font-weight: 400;
   font-style: normal;
-} */
+}
+@font-face {
+  font-family: "Agrandir";
+  src: url("/fonts/agrandir-grand.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+
+
 /* Variables de color */
 :root {
   --primary-color: #333333; /* Negro */
@@ -75,6 +83,20 @@ header {
   position: fixed;
   top: 0;
   z-index: 1000;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: -4rem;
+    width: 100%;
+  }
+
+  to {
+    margin-top: 0;
+    width: 100%;
+  }
 }
 
 a {
@@ -115,6 +137,7 @@ nav a {
 nav a:hover,
 nav a.active {
   color: var(--accent-color);
+  font-weight: bold;
 }
 
 nav a.active::after,
@@ -178,20 +201,21 @@ main {
 }
 
 .intro-text h1 {
-  font-size: 2.6rem;
+  font-family: "Agrandir", "Montserrat";
+  font-size: 2.1rem;
+  letter-spacing: 0.1rem;
   margin-bottom: 1rem;
   text-wrap: balance;
+
 }
 
-
-
 .intro-text h2 {
-  font-size: 2.2rem;
+  font-family: "Architects", "Montserrat";
+  font-size: 1.8rem;
   color: var(--secondary-color);
   margin-top: -0.6rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-bottom: 1rem;
   text-wrap: balance;
   font-weight: normal;
 }
@@ -239,9 +263,9 @@ main {
 
 /* Estilo de textos */
 .titulos {
-  
+  font-family: "Agrandir";
   display: block;
-  font-size: 1.5em;
+  font-size: 1.4em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
@@ -801,21 +825,21 @@ footer {
 }
 
 /* Estilos responsivos */
-@media (max-width: 1024px) {
+@media (width <= 1024px) {
   .parallax {
     height: 150px;
   }
 
   .intro-text h1 {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .intro-text h2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
 
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .intro {
     flex-direction: column-reverse;
   }
@@ -847,7 +871,7 @@ footer {
 }
 
 
-@media (max-width: 600px) {
+@media (width <= 600px) {
   main {
     height: auto;
     padding-bottom: 50px;
@@ -861,11 +885,11 @@ footer {
   }
 
   .intro-text h1 {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
   }
 
   .intro-text h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-bottom: 3rem;
   }
 
