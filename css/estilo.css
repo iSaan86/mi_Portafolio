@@ -1,26 +1,23 @@
 @font-face {
-  font-family: "Quicksand";
-  src: url("/fonts/Quicksand-VariableFont_wght.ttf");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
   font-family: "Montserrat";
   src: url("/fonts/Montserrat-VariableFont_wght.ttf");
   font-weight: 400;
   font-style: normal;
+  font-display: fallback;
 }
 @font-face {
   font-family: "Architects";
   src: url("/fonts/ArchitectsDaughter-Regular.ttf");
   font-weight: 400;
   font-style: normal;
+  font-display: fallback;
 }
 @font-face {
   font-family: "Agrandir";
   src: url("/fonts/agrandir-grand.ttf");
   font-weight: 200;
   font-style: normal;
+  font-display: fallback;
 }
 
 
@@ -246,7 +243,6 @@ main {
 .availability {
   font-size: 1.4rem;
   margin-top: 2rem;
-  font-family: "Quicksand", sans-serif;
   color: rgb(165, 199, 151);
   animation: blink 1s infinite;
 }
@@ -374,7 +370,6 @@ main {
 .skills span {
   display: inline-block;
   background-color: var(--hover-color);
-  font-family: "Quicksand", sans-serif;
   color: white;
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
@@ -502,7 +497,6 @@ details[open] summary::before {
 }
 
 .button span {
-  font-family: "Quicksand", sans-serif;
   letter-spacing: 1px;
 }
 
@@ -578,7 +572,6 @@ h2 {
   font-weight: bold;
   color: white;
   text-align: center;
-  font-family: "Quicksand", sans-serif;
   
 }
 
