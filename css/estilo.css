@@ -3,21 +3,21 @@
   src: url("/fonts/Montserrat-VariableFont_wght.ttf");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: "Architects";
   src: url("/fonts/ArchitectsDaughter-Regular.ttf");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: "Agrandir";
   src: url("/fonts/agrandir-grand.ttf");
   font-weight: 200;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 
