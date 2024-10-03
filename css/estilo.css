@@ -158,7 +158,16 @@ nav a:hover::after {
 .parallax {
   position: relative;
   height: 230px;
-  background-image: url("../img/image/3.webp"); /* Ruta de la imagen */
+  background-image: url("../img/image/3a.webp"); /* Ruta de la imagen */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallaxDos {
+  position: relative;
+  height: 230px;
+  background-image: url("../img//image/5.webp"); /* Ruta de la imagen */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -390,7 +399,8 @@ details[open] {
 }
 
 details summary {
-  color: var(--highlight-color);
+  color: var(--secondary-color);
+  font-weight:600;
   list-style: none; /* ocultamos la flecha */
   cursor: pointer; /* cambia el cursor del puntero */
   text-decoration: underline; /* subrayado por defecto */
@@ -472,6 +482,7 @@ details[open] summary::before {
   margin-top: 3rem;
   margin-bottom: 2rem;
   gap: 1rem;
+  color: var(--primary-color)
 }
 
 .button {
@@ -650,6 +661,7 @@ h2 {
 .project-description {
   padding-top: 0.5rem;
   width: 95%;
+  line-height: 1.5rem;
 }
 
 .project-description p {
