@@ -834,6 +834,9 @@ footer {
   .parallax {
     height: 150px;
   }
+  .parallaxDos {
+    height: 150px;
+  }
 
   .intro-text h1 {
     font-size: 2rem;
@@ -852,6 +855,10 @@ footer {
   .intro-image img {
     width: 300px;
     height: 300px;
+  }
+
+  #about {
+    padding-bottom: 4rem;
   }
 
   .project {
@@ -894,7 +901,7 @@ footer {
   }
 
   .intro-text h2 {
-    font-size: 1rem;
+    font-size: 1.15rem;
     padding-bottom: 3rem;
   }
 
