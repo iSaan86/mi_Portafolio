@@ -543,6 +543,7 @@ details[open] summary::before {
 }
 .btn {
   background-color: var(--card-background);
+  margin-top: 2rem;
 }
 
 /* Reutilización de keyframes */
