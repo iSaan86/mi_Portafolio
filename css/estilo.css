@@ -231,7 +231,18 @@ main {
   max-width: 600px;
 }
 
-.intro-text h1 {
+/* Sección de descripción */
+.intro-text--p {
+  font-size: 1.1rem;
+  padding: 0rem 2rem;
+  padding-top: 1rem;
+  line-height: 1.8rem;
+  color: var(--text-color);
+  text-wrap: pretty;
+  font-weight: normal;
+}
+
+.intro-text--h1 {
   font-family: "Agrandir", "Montserrat";
   font-size: 2.1rem;
   letter-spacing: 0.1rem;
@@ -239,7 +250,7 @@ main {
   text-wrap: balance;
 }
 
-.intro-text h2 {
+.intro-text--h2 {
   font-family: "Architects", "Montserrat";
   font-size: 1.8rem;
   color: var(--secondary-color);
@@ -256,24 +267,13 @@ main {
   object-fit: cover;
 }
 
-/* Sección de descripción */
-#descripcion {
-  font-size: 1.1rem;
-  padding: 0rem 2rem;
-  padding-top: 1rem;
-  line-height: 1.8rem;
-  color: var(--text-color);
-  text-wrap: pretty;
-  font-weight: normal;
-}
-
 /* Estilo de disponibilidad para trabajar */
-.availability {
+/* .availability {
   font-size: 1.4rem;
   margin-top: 2rem;
   color: rgb(165, 199, 151);
   animation: blink 1s infinite;
-}
+} */
 
 @keyframes blink {
   0%,
