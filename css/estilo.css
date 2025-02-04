@@ -493,8 +493,9 @@ details[open] summary::before {
 
 .linkedin-button {
   display: flex;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin: 1rem;
+  /* margin-top: 3rem; */
+  /* margin-bottom: 2rem; */
   justify-content: center;
   color: var(--primary-color);
   gap: 1rem;
