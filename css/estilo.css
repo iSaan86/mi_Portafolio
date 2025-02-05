@@ -649,6 +649,7 @@ h2 {
 
 .project {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   padding: 1rem;
   padding-top: 2rem;
@@ -663,6 +664,7 @@ h2 {
 
 .project-image {
   position: relative;
+  flex:1;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -684,6 +686,7 @@ h2 {
 
 .project-description {
   width: 100%;
+  flex:1;
   padding: 0.5rem; 
   line-height: 1.5rem;
 }
@@ -698,6 +701,13 @@ h2 {
 .project-description h3 {
   padding: 0rem 0.5rem;
   margin: 0.5rem 0rem;
+}
+
+.project-buttons {
+  width: 100%; 
+  text-align: center;
+  display: flex; /* Permite que los botones estén en la misma línea */
+  justify-content: center; /* Centra los botones en la sección */
 }
 
 .slider-controls {
@@ -963,6 +973,10 @@ footer {
     padding-top: 3rem;
     gap: 3rem;
     
+  }
+  .project-buttons {
+    flex-direction: column;
+    align-items: center;
   }
 
   .social-links {
