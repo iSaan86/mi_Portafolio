@@ -257,8 +257,8 @@ main {
   font-size: 1.8rem;
   color: var(--secondary-color);
   margin-top: -0.6rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   text-wrap: balance;
   font-weight: normal;
 }
@@ -930,8 +930,9 @@ footer {
 
 @media (width <= 600px) {
   main {
+    min-height: 100vh;
     height: auto;
-    padding-bottom: 50px;
+    padding-top: 0rem;
   }
 
   nav ul {
@@ -947,7 +948,7 @@ footer {
   }
 
   .intro-text h2 {
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
     font-size: 1.15rem;
     
   }
