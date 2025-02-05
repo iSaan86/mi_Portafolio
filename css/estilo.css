@@ -942,21 +942,32 @@ footer {
     gap: 0.8rem;
     
   }
+  .intro-image img {
+    width: 185px;
+    height: 185px;
+}
 
   .intro-text h1 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .intro-text h2 {
     /* padding-bottom: 3rem; */
-    font-size: 1.15rem;
+    font-size: 1.10rem;
     
+  }
+  .intro-text--p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
   }
 
   #descripcion {
     margin-top: -3rem;
     line-height: 1.7rem;
     
+  }
+  .social-links {
+    margin: 1rem 0rem;
   }
 
   #about {
