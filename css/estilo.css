@@ -932,7 +932,7 @@ footer {
   main {
     min-height: 100vh;
     height: auto;
-    padding-top: 0rem;
+    padding-top: 1.5rem;
   }
 
   nav ul {
@@ -953,12 +953,13 @@ footer {
 
   .intro-text h2 {
     /* padding-bottom: 3rem; */
-    font-size: 1.10rem;
+    font-size: 1rem;
     
   }
   .intro-text--p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-bottom: 1rem;
+    line-height: 1.5rem;
   }
 
   #descripcion {
