@@ -167,7 +167,7 @@ nav ul li a {
 .parallax {
   position: relative;
   height: 230px;
-  background-image: url("../img/image/3a.webp"); /* Ruta de la imagen */
+  background-image: url("../img/image/3.webp"); /* Ruta de la imagen */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -176,7 +176,7 @@ nav ul li a {
 .parallaxDos {
   position: relative;
   height: 230px;
-  background-image: url("../img//image/5.webp"); /* Ruta de la imagen */
+  background-image: url("../img//image/5a.webp"); /* Ruta de la imagen */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
