@@ -983,24 +983,24 @@ footer {
 @media (width <= 430px) {
 
   .intro-image img {
-    width: 230px;
-    height: 230px;
+    width: 210px;
+    height: 210px;
   }
   .intro-text--p {
     font-size: 1rem;
     margin-bottom: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
   }
   .intro-text h1 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .intro-text h2 {
     /* padding-bottom: 3rem; */
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .intro-text--p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-bottom: 1rem;
     line-height: 1.5rem;
   }
