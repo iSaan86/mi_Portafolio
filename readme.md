@@ -1,10 +1,10 @@
 # Portafolio de Alexandra Ferrera
 
-Este portafolio es una one-page diseñada y desarrollada completamente desde cero por mí, reflejando mi perfil profesional como Desarrolladora Web Frontend y mi pasión por el diseño y la tecnología.
+Este portafolio es una one-page diseñada y desarrollada completamente desde cero por mí, reflejando mi perfil profesional como Desarrolladora Web Frontend y mi pasión por el diseño.
 
 Cada sección de esta web ha sido cuidadosamente pensada para ofrecer una experiencia visual atractiva y una navegación fluida, demostrando mis habilidades tanto en desarrollo como en diseño. El diseño es minimalista, elegante y completamente responsive, adaptándose a cualquier dispositivo y tamaño de pantalla.
 
-En este proyecto he aplicado código limpio, estructurado y bien comentado, siguiendo buenas prácticas de desarrollo web. Además, el avatar utilizado ha sido ilustrado por mí, aportando un toque personal y creativo a la presentación.
+En este proyecto he aplicado código limpio, estructurado y bien comentado, siguiendo buenas prácticas de desarrollo web.
 
 ## Secciones incluídas
 
