@@ -1,23 +1,20 @@
-# Mi Portafolio
+# Portafolio de Alexandra Ferrera
 
-Mi portafolio personal es una página web de una sola hoja (one-page) que he diseñado y desarrollado completamente desde cero. En ella, presento mi perfil profesional como Desarrolladora Web Frontend.
+Este portafolio es una one-page diseñada y desarrollada completamente desde cero por mí, reflejando mi perfil profesional como Desarrolladora Web Frontend y mi pasión por el diseño y la tecnología.
 
-La página incluye secciones dedicadas a mi formación académica, habilidades técnicas (hard skills), proyectos destacados y una breve introducción personal.
+Cada sección de esta web ha sido cuidadosamente pensada para ofrecer una experiencia visual atractiva y una navegación fluida, demostrando mis habilidades tanto en desarrollo como en diseño. El diseño es minimalista, elegante y completamente responsive, adaptándose a cualquier dispositivo y tamaño de pantalla.
 
-Toda la página ha sido construida utilizando HTML, CSS y JavaScript.
+En este proyecto he aplicado código limpio, estructurado y bien comentado, siguiendo buenas prácticas de desarrollo web. Además, el avatar utilizado ha sido ilustrado por mí, aportando un toque personal y creativo a la presentación.
 
-#portfolio #frontenddeveloper #webdevelopment #html #css #javascript
+## Secciones incluídas
 
-## Captura de Pantalla
+· Sobre Mí: Breve presentación personal y profesional.
 
-![Mi Web](img/image/portfolio1.jpg)
-![Mi Web](img/image/portfolio2.jpg)
-![Mi Web](img/image/portfolio3.jpg)
+· Formación: Estudios y certificaciones relevantes.
 
-## Ver ejemplo en vivo
-[https://isaan86.github.io/mi_Portafolio/](https://isaan86.github.io/mi_Portafolio/)
+· Habilidades Técnicas: Conocimientos en desarrollo web frontend y diseño UX/UI.
 
-[https://alexandra-ferrera-portfolio.netlify.app/](https://alexandra-ferrera-portfolio.netlify.app/)
+· Proyectos Destacados: Trabajos realizados, incluyendo enlaces y descripciones.
 
 ## Tecnologías Utilizadas
 
@@ -25,12 +22,28 @@ Toda la página ha sido construida utilizando HTML, CSS y JavaScript.
 - CSS3
 - JavaScript
 - Git
-- Photoshop
+- Photoshop (edición y creación de recursos gráficos)
+
+## Capturas de Pantalla
+
+![Mi Web](img/image/portfolio1.jpg)
+![Mi Web](img/image/portfolio2.jpg)
+![Mi Web](img/image/portfolio3.jpg)
+
+## Ver ejemplo en vivo
+
+[GitHub Pages](https://isaan86.github.io/mi_Portafolio/)
+
+[Netlify](https://alexandra-ferrera-portfolio.netlify.app/)
+
 
 ## Contacto
 
-Para cualquier pregunta o comentario, no dudes en contactarme:
+Para cualquier consulta, oportunidad laboral o colaboración, no dudes en contactarme:
 
-- Nombre: Alexandra Ferrera Arenas
-- Perfil de Linkedin: https://www.linkedin.com/in/alexandra-ferrera-arenas/
-- Correo Electrónico: sandraferreraarenas@gmail.com
+- Nombre: Alexandra Ferrera
+- Perfil de Linkedin: [Mi LinkedIn](https://www.linkedin.com/in/alexandra-ferrera-arenas/)
+- Correo Electrónico:  [Mi email](sandraferreraarenas@gmail.com)
+- Porfolio: [Alexandra Ferrera Desarrolladora Frontend & UX/UI](https://alexandra-ferrera-portfolio.netlify.app/)
+
+#portfolio #frontenddeveloper #webdevelopment #html #css #javascript #uxui #design #responsive #cleanCode
