@@ -254,7 +254,7 @@ main {
 .intro-text--h2 {
   font-family: "Architects", "Montserrat";
   font-size: 1.8rem;
-  color: var(--secondary-color);
+  color: #de9962;
   margin-top: -0.6rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -415,7 +415,7 @@ details[open] {
 details summary {
   padding-left: 1rem;
   font-weight: 600;
-  color: var(--secondary-color);
+  color: #de9962;
   text-decoration: underline; /* subrayado por defecto */
   list-style: none; /* ocultamos la flecha */
   cursor: pointer; /* cambia el cursor del puntero */
