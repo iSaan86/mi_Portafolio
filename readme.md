@@ -1,8 +1,8 @@
 
-# 📁 Portfolio de Alexandra Ferrera
+# 🥇 Portfolio de Alexandra Ferrera
 [![Autor: Alexandra Ferrera](https://img.shields.io/badge/Autor-Alexandra%20Ferrera-blue?style=flat-square)](https://github.com/AlexandraFerrera)
 
-Portafolio one-page diseñado y desarrollado completamente desde cero, reflejando mi perfil profesional como Desarrolladora Web Frontend y mi pasión por el diseño.
+Portfolio one-page diseñado y desarrollado completamente desde cero, reflejando mi perfil profesional como Desarrolladora Web Frontend y mi pasión por el diseño.
 
 Cada sección ha sido cuidadosamente pensada para ofrecer una experiencia visual atractiva y una navegación fluida, demostrando mis habilidades tanto en desarrollo como en diseño. El diseño es minimalista, elegante y completamente responsive, adaptándose a cualquier dispositivo y tamaño de pantalla.
 
