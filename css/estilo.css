@@ -243,8 +243,8 @@ main {
 /* Sección de descripción */
 .intro-text--p {
   font-size: 1.1rem;
-  padding: 0rem 2rem;
-  padding-top: 1rem;
+  /* padding: 0rem 2rem; */
+  margin-top: 1rem;
   line-height: 1.8rem;
   color: var(--text-color);
   text-wrap: pretty;
@@ -264,8 +264,8 @@ main {
   font-size: 1.8rem;
   color: #de9962;
   margin-top: -0.6rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
   text-wrap: balance;
   font-weight: normal;
 }
@@ -327,7 +327,7 @@ main {
   display: flex;
   margin: 2.5rem 0;
   padding-inline: 1rem; /* Mejor manejo del relleno horizontal */
-  justify-content: center;
+  justify-content: space-around;
   gap: 1rem;
 }
 
