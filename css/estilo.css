@@ -297,11 +297,7 @@ main {
 /* Estilo de textos */
 .titulos {
   display: block;
-  margin: 3rem 0;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  padding: 1.5rem 0;
   font-family: "Agrandir";
   font-size: 1.4em;
   font-weight: bold;
@@ -362,6 +358,7 @@ main {
   padding-bottom: 6.5rem;
   background-color: var(--card-background);
   place-items: center;
+  min-height: 890px;
 }
 
 .about-container {
@@ -395,16 +392,17 @@ main {
   display: flex;
   flex-wrap: wrap; /* Permite que los elementos de habilidades se envuelvan */
   justify-content: center;
+  gap: 1rem;
 }
 
 .skills span {
   display: inline-block;
-  padding: 0.25rem 0.5rem;
-  margin: 0.5rem;
+  padding: 0.5rem;
   color: white;
   background-color: var(--hover-color);
   border-radius: 4px;
   text-align: center;
+ 
 }
 
 details {
@@ -467,12 +465,12 @@ details[open] summary::before {
 }
 
 .certifications {
-  margin-top: 3rem;
+  padding-top: 3rem;
 }
 
 .certification {
   display: flex;
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
   align-items: flex-start;
 }
 
@@ -487,16 +485,16 @@ details[open] summary::before {
 }
 
 .certification h3 {
-  margin: 0 0 0.5rem 0;
+  padding: 0 0 0.5rem 0;
 }
 
 .certification p {
-  margin: 0.2rem 0;
+  padding: 0.2rem 0;
 }
 
 .linkedin-button {
   display: flex;
-  margin: 1rem;
+  padding: 1rem;
   /* margin-top: 3rem; */
   /* margin-bottom: 2rem; */
   justify-content: center;
@@ -562,7 +560,7 @@ details[open] summary::before {
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
+  padding-top: 20px;
   justify-content: center;
   gap: 20px;
 }
@@ -687,14 +685,13 @@ h2 {
 
 .project-description p {
   padding: 0.5rem;
-  margin-bottom: 0.5rem;
+  padding-bottom: 1rem;
   text-wrap: pretty;
   text-align: justify;
 }
 
 .project-description h3 {
-  padding: 0rem 0.5rem;
-  margin: 0.5rem 0rem;
+  padding: 0.5rem;
 }
 
 .project-buttons {
