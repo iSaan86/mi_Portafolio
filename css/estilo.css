@@ -662,7 +662,7 @@ h2 {
 .projects-gallery {
   display: flex;
   flex-direction: column;
-  gap: 4.5rem;
+  gap: 6rem;
   padding-top: 3rem;
 }
 
@@ -957,7 +957,7 @@ h2 {
   }
 
   .projects-gallery {
-    gap: 3rem;
+    gap: 4rem;
     padding-top: 2rem;
   }
 
