@@ -662,7 +662,7 @@ h2 {
 .projects-gallery {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 4.5rem;
   padding-top: 3rem;
 }
 
