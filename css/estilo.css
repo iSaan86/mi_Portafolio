@@ -265,7 +265,8 @@ main {
 .intro-text--h1 {
   font-family: "Golden", sans-serif;
   color: #de9962;
-  font-size: 3rem;
+  font-size: 4rem;
+  padding-left: 0.5rem;
   letter-spacing: 0.1rem;
   margin-bottom: 1rem;
   /* text-wrap: balance; */
@@ -1105,7 +1106,8 @@ footer h4 {
   }
 
   .intro-text h1 {
-    font-size: 50px;
+    font-size: 3rem;
+    padding-left: 0.5rem;
   }
 
   .intro-text h2 {
@@ -1150,7 +1152,8 @@ footer h4 {
   }
 
   .intro-text h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
+    padding-left: 0.5rem;
   }
 
   .intro-text h2 {
@@ -1194,10 +1197,6 @@ footer h4 {
   .intro-image img {
     width: 200px;
     height: 200px;
-  }
-
-  .intro-text h1 {
-    font-size: 28px;
   }
 
   .intro-text h2 {
