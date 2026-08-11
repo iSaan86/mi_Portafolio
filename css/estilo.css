@@ -1099,12 +1099,12 @@ h2 {
 @media (width <= 430px) {
 
   .intro-image img {
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
   }
   
   .intro-text h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .intro-text h2 {
