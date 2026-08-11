@@ -34,7 +34,7 @@
   --secondary-color: #f0ac75; /* Peach claro */
   --accent-color: #c8906a; /* Marrón */
   --background-color: #ffffff; /* Blanco */
-  --text-color: #3b3b3b; /* Negro */
+  --text-color: #1b1b1b; /* Negro */
   --light-text-color: #f8eeec; /* Beige mas claro */
   --highlight-color: #ffbe98; /* Peach */
   --card-background: #f8f1ec; /* Beige claro */
@@ -276,7 +276,7 @@ main {
 .intro-text--h2 {
   font-family: "Montserrat", "open-sans", sans-serif;
   font-size: 1.4rem;
-  color: var(--primary-color);
+  color: var(--text-color);
   margin-top: -0.6rem;
   /* padding-left: 1rem;
   padding-right: 1rem; */
