@@ -1,7 +1,7 @@
 
 // Funciones para activar los enlaces del menú de navegacion al hacer scroll o click en ellos:
 document.addEventListener('DOMContentLoaded', () => {
-    const navLinks = document.querySelectorAll('header nav a[href^="#"]');
+    const navLinks = document.querySelectorAll('nav a');
 
     function updateActiveLink() {
         let fromTop = window.scrollY;
