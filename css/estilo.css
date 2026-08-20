@@ -1195,8 +1195,8 @@ footer h4 {
 }
 @media (width <= 430px) {
   .intro-image img {
-    width: 200px;
-    height: 200px;
+    width: 185px;
+    height: 185px;
   }
 
   .intro-text h2 {
