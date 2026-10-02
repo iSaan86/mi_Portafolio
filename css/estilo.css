@@ -1055,9 +1055,6 @@ h2 {
     padding: 1.4rem;
   }
 
-  .project-buttons {
-    justify-content: center;
-  }
 }
 
 @media (width <= 600px) {
