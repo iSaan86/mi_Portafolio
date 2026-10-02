@@ -847,7 +847,8 @@ h2 {
 #cto {
   display: flex;
   flex-direction: column;
-  padding: 6rem 2rem;
+  padding: 0 2rem;
+  padding-top: 6rem;
   text-align: center;
   align-items: center;
 }
@@ -857,16 +858,31 @@ h2 {
    ========================= */
 
 #contacto {
-  display: flex;
-  flex-direction: column;
+  padding: 3rem 2rem 2rem;
+  background-color: var(--card-background);
   text-align: center;
-  align-items: center;
+  scroll-margin-top: 80px;
 }
 
-footer {
-  padding: 3rem 2rem 2rem;
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* sobreescribe el text-align: left heredado de .about-container */
+  gap: 1.25rem;
+}
+
+/* Título visible: el blanco venía de una regla global de .titulos o h2 */
+#contacto .titulos {
+  color: var(--text-color);
   text-align: center;
-  background-color: var(--card-background);
+  margin: 0;
+}
+
+.footer-intro,
+.footer-info {
+  margin: 0;
+  text-align: center;
 }
 
 .footer-links {
@@ -874,16 +890,22 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1.5rem;
-  margin: 3rem 0;
+  gap: 0.75rem 1.75rem;
+  margin: 0.5rem 0 1rem;
 }
 
 .footer-links a {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 0.5rem;
+  padding: 0.4rem 0.2rem;
   color: var(--text-color);
   font-weight: 600;
+}
+
+.footer-links a:hover,
+.footer-links a:focus-visible {
+  color: var(--accent-text-color, #8f5c37);
 }
 
 .footer-links img {
@@ -892,30 +914,14 @@ footer {
   object-fit: contain;
 }
 
-.footer-links a:hover {
-  color: var(--accent-color);
-}
-
-footer p {
-  margin: 1rem 0;
-  font-size: 1rem;
-  text-align: left;
-}
-
-.footer-info,
 .footer-copyright {
+  width: 100%;
+  margin: 1rem 0 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.9rem;
   text-align: center;
 }
-
-.footer-copyright {
-  margin: 2rem;
-  color: var(--text-color);
-}
-
-footer h4 {
-  text-align: left;
-}
-
 /* =========================
    MODAL DE IMÁGENES
    ========================= */
