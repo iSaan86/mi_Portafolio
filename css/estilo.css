@@ -844,6 +844,14 @@ h2 {
   display: none;
 }
 
+#cto {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 2rem;
+  text-align: center;
+  align-items: center;
+}
+
 /* =========================
    PIE DE PÁGINA
    ========================= */
